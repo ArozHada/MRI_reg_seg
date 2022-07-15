@@ -1,13 +1,6 @@
-Image registration is an essential process to draw
-correspondence between images.Non-rigid image registration or
-Deformable Image registration (DIR) differ with rigid image reg-
-istration (RIR),such that all pixel-to-pixel relationships change.
-In this report, we present a TRE (Target Registration Error) min-
-imization based algorithm using Elastix to perform deformable
-image registration of lungs CT (exhale and inhale) on the DIR-
-Lab’s COPD dataset. Different parameter files were used and
-parameter tuning was implemented in order to minimize the
-TRE. The average TRE (in mm) for the four datasets using the
-final parameters were 1.62 , 4.3 , 1.974 , and 2.398 for datasets
+Image registration is an essential process to draw correspondence between images.Non-rigid image registration or Deformable Image registration (DIR) differ with rigid 
+image registration (RIR),such that all pixel-to-pixel relationships change. In this report, we present a TRE (Target Registration Error) minimization based algorithm 
+using Elastix to perform deformable image registration of lungs CT (exhale and inhale) on the DIR-Lab’s COPD dataset. Different parameter files were used and
+parameter tuning was implemented in order to minimize the TRE. The average TRE (in mm) for the four datasets using the final parameters were 1.62 , 4.3 , 1.974 , and 2.398 for datasets
 COPD1, COPD2, COPD3, and COPD4, respectively.
 
